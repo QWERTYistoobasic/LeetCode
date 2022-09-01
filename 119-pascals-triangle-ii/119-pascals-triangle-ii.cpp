@@ -13,6 +13,8 @@ public:
                     row.push_back(dp[i-1][j]+dp[i-1][j-1]);
             }
             dp.push_back(row);
+            if(i==n)
+            break;
         }
         return dp[n];
     }
