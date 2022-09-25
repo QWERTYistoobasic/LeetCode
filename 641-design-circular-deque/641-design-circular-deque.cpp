@@ -37,7 +37,7 @@ public:
     bool deleteLast() {
         if(q.size()>0)
         {
-            q.erase(q.begin()+q.size()-1);
+            q.erase(q.end()-1);
             return true;
         }
         return false;
