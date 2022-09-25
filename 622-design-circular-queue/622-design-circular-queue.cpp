@@ -2,8 +2,6 @@ class MyCircularQueue {
 public:
     vector<int>q;
         int size=0;
-    int front=0;
-    int rear=0;
     MyCircularQueue(int k) {
         size=k;
     }
