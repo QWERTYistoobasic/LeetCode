@@ -2,7 +2,8 @@ class Solution {
 public:
      int f(int idx, int prev, string& s, vector<int>& time, vector<vector<int>>& dp) {
         if(idx ==s.size()-1) {
-            if(s[idx] - 'a' == prev) return time[idx];
+            if(s[idx] - 'a' == prev)
+                return time[idx];
             return 0;
         }
         
